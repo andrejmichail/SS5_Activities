@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 14, 2026 at 04:23 AM
+-- Generation Time: Oct 14, 2026 at 04:26 AM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -112,7 +112,8 @@ INSERT INTO `furniture` (`FurnitureID`, `FurnitureName`, `FurnitureType`, `Mater
 (10, 'Victorian Side Table', 'Table', 'Oak Wood', 0000, '16000.00', NULL, 1, 'Good'),
 (11, 'Sukuna\'s Finger', '', NULL, NULL, NULL, 'Tastes awful!', 2, 'Excellent'),
 (12, 'Dragon Ball', '', NULL, NULL, NULL, 'collect 7 to grant you any wish!', 1, 'Good'),
-(13, 'Power Pole', '', NULL, NULL, NULL, 'Wielded by Son Goku', 1, 'Excellent');
+(13, 'Power Pole', '', NULL, NULL, NULL, 'Wielded by Son Goku', 1, 'Excellent'),
+(14, 'Dummy', '', NULL, NULL, NULL, '123', 3, 'Excellent');
 
 -- --------------------------------------------------------
 
@@ -382,7 +383,7 @@ ALTER TABLE `clients`
 -- AUTO_INCREMENT for table `furniture`
 --
 ALTER TABLE `furniture`
-  MODIFY `FurnitureID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `FurnitureID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `medicalcenters`
